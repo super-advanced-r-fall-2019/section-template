@@ -4,8 +4,8 @@ subtitle: "FSH 507 Fall 2019"
 author: "Your Name"
 date: " `r Sys.Date()`"
 output:
-  ioslides_presentation: default
   powerpoint_presentation: default
+  ioslides_presentation: default
   html_document: default
   slidy_presentation: default
 ---

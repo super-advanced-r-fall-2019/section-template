@@ -6,6 +6,32 @@
 This repository contains materials for the <YOUR LECTURE HERE> section
 of FSH 507 - Super Advanced R (Fall 2019)
 
+The file structure is based on [“Good enough practices in scientific
+computing”](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510).
+This can take some getting used, but is worth it, and is incredible easy
+with ther `here` package. `here` figures out path names for you.
+
+Suppose that I have a .csv file called my\_data.csv that I’ve placed in
+the data folder, that I then want to load into my presentation. We can
+use `here` to find the complete path for that file
+
+``` r
+path <- here::here("data","my_data,csv")
+path
+#> [1] "/Users/danovan/teaching/fsh_207-super-advanced-r_fall-2019/section-template/data/my_data,csv"
+```
+
+And then just pass that path to read.csv\!
+
+``` r
+my_data <- read.csv(path)
+```
+
+This will work on any operating system, no matter where the project
+itself is stored, and no matter whether you’re in a script or an R
+Markdown chunk. The key though is organizing your folder so that all the
+materials you need are in the repo.
+
 If you’re not familiar with using GitHub yet, first make a GitHub
 account. From there, the best way to download the repository, make
 changes, and then “push” the changes back to the repository is to use
