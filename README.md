@@ -6,6 +6,9 @@
 This repository contains materials for the <YOUR LECTURE HERE> section
 of FSH 507 - Super-Advanced R (Fall 2019)
 
+Course syllabus available
+[here](https://docs.google.com/document/d/1S63IHjNBk8e7St6XcyqhVu98qpuRTUx3DHYqzWKYDys/edit?usp=sharing)
+
 Once you’ve gotten these setup, feel free to replace this README.Rmd
 file with your own actually describing your repository.
 
