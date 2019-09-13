@@ -121,20 +121,28 @@ to Git.
 
 A sample presentation has been placed in
 `presentations/section-presentation.Rmd`. I’ve added a few suggested
-topics, but feel free to modify as you see fit. If you’re also thinking
-“Come on, I already volunteered to teach a section and now you’re
-asking me to learn an entire new way to make presentations???”, you can
-of course use PowerPoint or whatever you want\! You can still push it to
-the GitHub repo. I would ask though that you at least have a script that
-students can access to see the code examples.
+topics, but feel free to modify as you see fit.
 
 The presentation is in an R Markdown document. You can read an
 introduction to R Markdown presentations
-[here](https://bookdown.org/yihui/rmarkdown/presentations.html).
+[here](https://bookdown.org/yihui/rmarkdown/presentations.html). I
+strongly recommend R Markdown presentations for any code-heavy
+presentation: few things worse than copy and pasting code to PowerPoint,
+and it’s much easier for students to read than scrolling through a
+script on the display screen. Also that way students can run through and
+reproduce your presentation on their end. The point is to make things
+easier, not “better”\!
+
+If you’re also thinking “Come on, I already volunteered to teach a
+section and now you’re asking me to learn an entire new way to make
+presentations???”, you can of course use PowerPoint or whatever you
+want\! You can still push it to the GitHub repo. I would ask though that
+you at least have a script that students can access to see the code
+examples.
 
 R Markdown has a few default options for displaying your presentation,
 the best to start with in my opinion being `ioslides` (an HTML
-presentation). But, this nice feature of working with R Markdown
+presentation). But, a nice feature of working with R Markdown
 presentations is that you can export to PDF, and even PowerPoint, just
 by changing one option.
 

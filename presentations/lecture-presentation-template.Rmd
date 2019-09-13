@@ -13,7 +13,6 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
-library(gganimate)
 library(gapminder)
 ```
 
@@ -40,7 +39,10 @@ summary(cars)
 ## Slide with Plot
 
 ```{r pressure}
-plot(pressure)
+pressure %>% 
+  ggplot(aes(temperature, pressure)) + 
+  geom_point()
+
 ```
 
 
